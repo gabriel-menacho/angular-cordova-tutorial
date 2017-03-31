@@ -2,11 +2,11 @@
 <widget id="ch.becompany.news" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>BeCompany news</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
+    A sample Apache Cordova application that reads news feeds.
+  </description>
+    <author email="gabo.menacho@gmail.com" href="https://becompany.ch">
+    BeCompany GmbH
+  </author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -16,4 +16,6 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <hook src="scripts/prepareAngular2App.js" type="before_prepare" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
 </widget>
